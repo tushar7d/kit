@@ -1,0 +1,13 @@
+{
+  "presets": ["env", "react"],
+  "plugins": [
+    [
+      "babel-plugin-styled-components",
+      {
+        "pure": true,
+        "displayName": false
+      },
+      "react-hot-loader/babel"
+    ]
+  ]
+}
