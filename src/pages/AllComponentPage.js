@@ -11,12 +11,12 @@ import {
 } from "../uds";
 import { Text } from "../uds/primitive";
 
-const ComponentPage = () => {
+const AllComponentPage = () => {
   return (
     <Page>
       <GlobalNavigation sticky />
       <Row>
-        <Column>
+        <Column >
           <Banner />
           <Banner heading />
           <Banner heading icon />
@@ -61,4 +61,4 @@ const ComponentPage = () => {
   );
 };
 
-export default ComponentPage;
+export default AllComponentPage;

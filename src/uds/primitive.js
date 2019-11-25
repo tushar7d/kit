@@ -143,6 +143,8 @@ ${space}
 font-size: ${tsize};
 line-height: ${height};
 font-weight: ${weight};
+white-space: ${props => props.truncate ?`nowrap` : null};
+text-overflow:  ${props => props.truncate ?`ellipsis` : null};
 `;
 
 Text.displayName = "Text";
