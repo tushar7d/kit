@@ -7,7 +7,7 @@ const Banner = props => {
     <Stack
       horizontal
       left
-      top
+      mid
       width="100%"
       height="auto"
       bg="neutral__700"
