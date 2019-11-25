@@ -7,16 +7,21 @@ import {
   GlobalNavigation,
   Page,
   Row,
-  Column
+  Column,
+  ToolBar,
+  Sticky
 } from "../uds";
 import { Text } from "../uds/primitive";
 
 const AllComponentPage = () => {
   return (
     <Page>
-      <GlobalNavigation sticky />
+      <Sticky top>
+        <GlobalNavigation />
+        <ToolBar />
+      </Sticky>
       <Row>
-        <Column >
+        <Column>
           <Banner />
           <Banner heading />
           <Banner heading icon />
@@ -24,7 +29,7 @@ const AllComponentPage = () => {
           <MessagingCard heading />
           <MessagingCard heading link />
           <MessagingCard heading link icon />
-          </Column>
+        </Column>
       </Row>
       <Row>
         <Column>
@@ -54,9 +59,8 @@ const AllComponentPage = () => {
               Subheading
             </Text>
           </Card>
-          </Column>
-          </Row>
-    
+        </Column>
+      </Row>
     </Page>
   );
 };

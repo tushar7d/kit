@@ -15,10 +15,6 @@ const GlobalNavigation = () => {
       height="48px"
       bg="white"
       boxShadow="1"
-      position={"fixed"}
-      top={0}
-      left={0}
-      right={0}
       px="4"
     >
       <img src={logo} width="100px" height="auto" alt="expedia.com" />
