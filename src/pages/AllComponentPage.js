@@ -17,15 +17,13 @@ const AllComponentPage = () => {
     <Page>
       <Sticky top topgap="60px">
         <GlobalNavigation />
-
       </Sticky>
       <Row>
         <Column>
           <Banner />
           <Banner heading />
           <Banner heading icon />
-          <MessagingCard heading />
-          <MessagingCard heading />
+          <MessagingCard icon /> 
           <MessagingCard heading link />
           <MessagingCard heading link icon />
         </Column>
