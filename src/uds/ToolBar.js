@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 import React from "react";
 import { Stack, Box } from "./primitive";
-import logo from "../assets/Images/Expedia-logo.svg";
-import { MdSearch, MdAccountCircle, MdFavorite } from "react-icons/md";
+
+import { MdSearch } from "react-icons/md";
 import theme from "../theme";
 
 const ToolBar = () => {
@@ -15,21 +15,12 @@ const ToolBar = () => {
       height="48px"
       bg="white"
       boxShadow="1"
-      
       px="4"
     >
-      <img src={logo} width="100px" height="auto" alt="expedia.com" />
-      <Stack horizontal right mid maxHeight="32px">
-        <Box ml="4">
-          <MdSearch color={theme.colors.neutral__700} size="24px" />
-        </Box>
-        <Box ml="4">
-          <MdFavorite color={theme.colors.neutral__700} size="24px" />
-        </Box>
-        <Box ml="4">
-          <MdAccountCircle color={theme.colors.neutral__700} size="24px" />
-        </Box>
-      </Stack>
+      <Box ml="4">
+        <MdSearch color={theme.colors.neutral__700} size="24px" />
+      </Box>
+      
     </Stack>
   );
 };

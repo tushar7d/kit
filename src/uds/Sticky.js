@@ -3,11 +3,15 @@ import React from "react";
 import { Box } from "./primitive";
 
 const Sticky = props => {
+  let childref = React.createRef();
+ 
+ 
+
   return (
     <div>
       {props.top && (
-        <Box height="112px">
-          <Box position={"fixed"} top={0} left={0} right={0}>
+        <Box height={props.topgap}>
+          <Box ref={childref} position={"fixed"} top={0} left={0} right={0}>
             {props.children}
           </Box>
         </Box>

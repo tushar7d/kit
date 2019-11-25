@@ -8,7 +8,6 @@ import {
   Page,
   Row,
   Column,
-  ToolBar,
   Sticky
 } from "../uds";
 import { Text } from "../uds/primitive";
@@ -16,9 +15,9 @@ import { Text } from "../uds/primitive";
 const AllComponentPage = () => {
   return (
     <Page>
-      <Sticky top>
+      <Sticky top topgap="60px">
         <GlobalNavigation />
-        <ToolBar />
+
       </Sticky>
       <Row>
         <Column>
