@@ -34,6 +34,7 @@
   },
   "scripts": {
     "start": "NODE_ENV=development parcel src/index.html --open",
-    "build": "NODE_ENV=production parcel build src/index.html --public-url ./"
+    "build": "NODE_ENV=production parcel build src/index.html --public-url ./",
+    "doc" : "cd website && yarn start"
   }
 }

@@ -70,9 +70,10 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
-          themes: ['@docusaurus/theme-live-codeblock'],
+         
         },
       },
     ],
   ],
+  themes: ['@docusaurus/theme-live-codeblock'],
 };
