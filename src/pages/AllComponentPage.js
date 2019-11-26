@@ -20,7 +20,7 @@ const AllComponentPage = () => {
       </Sticky>
       <Row>
         <Column>
-          <Banner />
+          <Banner  icon heading="hello" text="bwhahahahah"/>
           <Banner heading="dsddsd"  />
           <Banner heading icon />
           <MessagingCard icon />
