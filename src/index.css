@@ -384,7 +384,7 @@
   
   body {
     margin: 0;
-    font-family: "centra_no1",Arial, Helvetica, sans-serif;
+    font-family:'centra_no1',Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-decoration: none;

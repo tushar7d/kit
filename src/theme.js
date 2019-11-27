@@ -1,9 +1,9 @@
 const theme = {
   breakpoints: ["375px", "600px", "992px", "1200px", "1408px"],
-  space: [0, 4, 8, 12, 16, 20, 24],
+  space: [2, 4, 8, 12, 16, 20, 24,null,null,null,null,null,48],
   sizes: [0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,64,68,72,76,80],
-  fontSizes:   [8 , 10, 12, 14, 16, 18, 22, 28, 36, 56],
-  lineHeights: [10, 12, 16, 18, 20, 22, 26, 32, 38, 56],
+  fontSizes:   [ 10, 12, 14, 16, 18, 22, 28, 36, 56],
+  lineHeights: [ 12, 16, 18, 20, 22, 26, 32, 38, 56],
   fontWeights: ["","normal","500", "bold"],
   shadows: ["",
     "0px 1px 0px rgba(0, 0, 0, 0.12)",
@@ -29,6 +29,7 @@ const theme = {
 
     accent: ["", "#1e14cc", "#005aeb", "", "#007864", "#d40035"],
     background:["#ffffff","#f0f6ff","#e0ecff"],
+    brand:["#FFD500","#002480"],
     yellow: "#ffd500",
     darkblue: " #002480",
     neutral__100: "#f5f6fa",

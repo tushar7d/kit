@@ -1,23 +1,22 @@
+/* eslint-disable react/display-name */
 /* eslint-disable react/prop-types */
 import React from "react";
-import {Box, Stack, Text } from '../uds/primitive'
-import {Button} from '../uds'
 
-const BoxProps = {
+import Test from '../docs/test.mdx'
+import {MDXProvider} from '@mdx-js/react'
 
-  bg: "neutral__700",
-  height: "400px",
-  width: "80%" 
+const components = {
+  h1: props => <h1 style={{color: 'tomato'}} {...props} />
 }
+
 
 
 const Home = () => {
   return(
 
-
-<Box {...BoxProps} >hello1
-<Box {...BoxProps} bg="red" >hello2</Box>
-</Box>
+<MDXProvider components={components}>
+    <Test /> 
+</MDXProvider>
 
   ) ;
 };

@@ -7,8 +7,8 @@
 
 module.exports = {
   docs: {
-    'Foundation': ['Box'],
-    'Components': ['doc1'],
+    'Foundation': ['Box', 'Text', 'Stack','Token'],
+    'Components': ['Page'],
     'Views': ['doc1', 'doc2', 'doc3'],
     Animation: ['mdx'],
     Utilities: ['mdx'],

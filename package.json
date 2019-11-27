@@ -6,15 +6,14 @@
   "author": "tdebnath@expedia.com",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "@mdx-js/parcel-plugin-mdx": "^1.5.1",
+    "@mdx-js/react": "^1.0.0-rc.5",
     "@types/react": "^16.9.13",
     "@types/react-dom": "^16.9.4",
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^10.0.3",
     "babel-plugin-styled-components": "^1.10.6",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "eslint": "^6.6.0",
-    "eslint-plugin-react": "^7.16.0",
     "react-hot-loader": "^4.12.18",
     "typescript": "^3.7.2"
   },
@@ -35,6 +34,6 @@
   "scripts": {
     "start": "NODE_ENV=development parcel src/index.html --open",
     "build": "NODE_ENV=production parcel build src/index.html --public-url ./",
-    "doc" : "cd website && yarn start"
+    "doc": "cd website && yarn start"
   }
 }

@@ -9,7 +9,7 @@ It is simmilar to a layer in Figma. It can have width, height, background color 
 
 ## How to use?
 
-```jsx {1}
+```jsx 
 <Box width="351px" height=" 500px" bg="neutral__200" p="2" >
         This is a box!
 </Box>
@@ -77,6 +77,8 @@ This will render a layer with a width of 351px, height of 500px, a background co
 | Background color| UDS Color Token  | ```<Box bg="neutral__200"></Box>```|
 | Text color  | UDS Color Token|```<Box color="neutral__500"> I am neutral 500</Box>```|
 
+
+## Sample Code
 
 
 

@@ -14,7 +14,11 @@
     "@docusaurus/theme-live-codeblock": "^2.0.0-alpha.33",
     "classnames": "^2.2.6",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "styled-components": "^4.4.1",
+    "styled-css-grid": "^1.2.1",
+    "styled-map": "^3.3.0",
+    "styled-system": "^5.1.2"
   },
   "browserslist": {
     "production": [
