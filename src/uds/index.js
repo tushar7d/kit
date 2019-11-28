@@ -14,3 +14,7 @@ export {default as Container} from './Container'
 export {default as Spacing} from './Spacing'
 export {default as Section} from './Section'
 export {default as Sticky} from './Sticky'
+
+export {Box} from './primitive'
+export {Text} from './primitive'
+export {Stack} from './primitive'

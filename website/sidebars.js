@@ -8,7 +8,7 @@
 module.exports = {
   docs: {
     'Foundation': ['Box', 'Text', 'Stack','Token'],
-    'Components': ['Page'],
+    'Components': ['Page','MessagingCard', 'Button'],
     'Views': ['doc1', 'doc2', 'doc3'],
     Animation: ['mdx'],
     Utilities: ['mdx'],
