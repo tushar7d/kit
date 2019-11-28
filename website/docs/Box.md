@@ -10,12 +10,22 @@ It is simmilar to a layer in Figma. It can have width, height, background color 
 
 ## How to use?
 
+### Step 1 - Import 
+
 ```jsx 
-<Box width="351px" height=" 500px" bg="neutral__200" p="2" >
+import {Box} from '../uds' //Path to UDS folder
+```
+
+### Step 2 - Use component
+```jsx 
+<Box width="200px" height="50px" bg="neutral__200" p="2" >
         This is a box!
 </Box>
 ```
-This will render a layer with a width of 351px, height of 500px, a background color of neutral__200 while internal spacing (padding) of 8px (2 X 4px)
+
+
+## Live Playground
+You can play with the code below to understand how this component works. You can apply any property to it listed in the section below.
 
 export const Embed = ()=>(
     <embed
@@ -25,6 +35,8 @@ export const Embed = ()=>(
 )
 
 <Embed />
+
+
 
 
 

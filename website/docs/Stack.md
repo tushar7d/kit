@@ -8,6 +8,15 @@ Stack is are Base Layout Component which is used to create all other Layout devi
 
 
 ## How to use?
+### Step 1 - Import 
+
+```jsx 
+import {Text} from '../uds' //Path to UDS folder
+
+```
+### Step 2 - Use component
+to run the example below you must import Box and Text also.
+
 
 ```jsx  {1}
 <Stack horizontal top left  width="500px" >
@@ -17,6 +26,11 @@ Stack is are Base Layout Component which is used to create all other Layout devi
     </Text>      
 </Stack>
 ```
+
+
+## Live Playground
+You can play with the code below to understand how this component works. You can apply any property to it listed in the section below.
+
 export const Embed = ()=>(
     <embed
      src="https://codesandbox.io/embed/stack-w19gk?autoresize=1&codemirror=1&fontsize=14&hidenavigation=1&module=%2Fsrc%2Fmain.js&theme=dark"
