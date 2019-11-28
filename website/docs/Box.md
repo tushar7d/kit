@@ -7,6 +7,7 @@ Basic Building block of all components. It can be used to contruct any component
 It is simmilar to a layer in Figma. It can have width, height, background color shadow etc. You can set these properties to create anything.
 
 
+
 ## How to use?
 
 ```jsx 
@@ -15,6 +16,17 @@ It is simmilar to a layer in Figma. It can have width, height, background color 
 </Box>
 ```
 This will render a layer with a width of 351px, height of 500px, a background color of neutral__200 while internal spacing (padding) of 8px (2 X 4px)
+
+export const Embed = ()=>(
+    <embed
+     src="https://codesandbox.io/embed/box-o9h16?autoresize=1&codemirror=1&fontsize=14&hidenavigation=1&module=%2Fsrc%2Fmain.js&theme=dark"
+     style={{width:"100%", height: "500px"}}
+   />
+)
+
+<Embed />
+
+
 
 ## Properties
 

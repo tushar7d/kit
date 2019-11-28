@@ -9,14 +9,22 @@ Stack is are Base Layout Component which is used to create all other Layout devi
 
 ## How to use?
 
-```jsx 
-<Stack horizontal top left  >
-    <Box width="200px" height="200px" borderRadius="5" bg="neutral__200"/> 
-    <Text type500 regular color="neutral__700">
+```jsx  {1}
+<Stack horizontal top left  width="500px" >
+    <Box width="80px" height="80px" borderRadius="5" bg="neutral__200"/> 
+    <Text ml="3" type500 regular color="neutral__700" width="90px">
         This Box is Horizontally centered in a top aligned box
     </Text>      
 </Stack>
 ```
+export const Embed = ()=>(
+    <embed
+     src="https://codesandbox.io/embed/stack-w19gk?autoresize=1&codemirror=1&fontsize=14&hidenavigation=1&module=%2Fsrc%2Fmain.js&theme=dark"
+     style={{width:"100%", height: "500px"}}
+   />
+)
+
+<Embed />
 
 ## Properties
 
