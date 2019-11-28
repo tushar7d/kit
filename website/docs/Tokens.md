@@ -17,6 +17,8 @@ Tokens are the most Important part of the kit they determine what styles are app
 
 ## Spacing Tokens
 
+These tokens can be used to define Padding (p), Margin(m) 
+
 
 | Token                  | value | UDS Name |
 |------------------------|-------|----------|
@@ -33,6 +35,20 @@ Tokens are the most Important part of the kit they determine what styles are app
 
 
 
+export const Embed = ()=>(
+    <embed
+     src="https://codesandbox.io/embed/uds-colors-82k29?autoresize=1&codemirror=1&fontsize=14&hidenavigation=1&module=%2Fsrc%2Fmain.js&theme=dark"
+     style={{width:"100%", height: "500px"}}
+   />
+)
+
+<Embed />
+
+
+-----
+
+These tokens can be used to define background color (bg), and Text color (color)
+
 ### Neutrals
 | Neutral Color Token                  | value |UDS Name | 
 |--------------------------------|-------|-------|
@@ -48,6 +64,7 @@ Tokens are the most Important part of the kit they determine what styles are app
 | neutral__700 | #465280|  neutral__700|
 | neutral__800 | #1f3366|  neutral__800|
 | neutral__900 | #001959|  neutral__900|
+
 
 
 ### Brand

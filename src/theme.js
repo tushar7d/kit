@@ -29,7 +29,7 @@ const theme = {
 
     accent: ["", "#1e14cc", "#005aeb", "", "#007864", "#d40035"],
     background:["#ffffff","#f0f6ff","#e0ecff"],
-    brand:["#FFD500","#002480"],
+    brand:["","#FFD500","#002480"],
     yellow: "#ffd500",
     darkblue: " #002480",
     neutral__100: "#f5f6fa",

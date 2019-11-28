@@ -37,7 +37,7 @@ You can play with the code below to understand how this component works. You can
 
 export const Embed = ()=>(
 <embed
-src="https://codesandbox.io/embed/button-6i0b1?autoresize=1&codemirror=1&fontsize=14&hidenavigation=1&module=%2Fsrc%2Fmain.js&theme=dark"
+src="https://codesandbox.io/embed/button-5gthb?autoresize=1&codemirror=1&fontsize=14&hidenavigation=1&module=%2Fsrc%2Fmain.js&theme=dark"
 style={{width:"100%", height: "500px"}}
 />
 )
